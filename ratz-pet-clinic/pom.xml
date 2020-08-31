@@ -45,7 +45,7 @@
     <scm>
 
         <developerConnection>scm:git:git@github.com:ratzPereira/PetClinic.git</developerConnection>
-
+        <tag>ratz-pet-clinic-0.0.2</tag>
 
   </scm>
 
