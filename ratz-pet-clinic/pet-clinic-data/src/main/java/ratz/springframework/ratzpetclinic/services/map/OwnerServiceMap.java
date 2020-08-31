@@ -1,11 +1,11 @@
 package ratz.springframework.ratzpetclinic.services.map;
 
 import ratz.springframework.ratzpetclinic.model.Owner;
-import ratz.springframework.ratzpetclinic.services.CrudService;
+import ratz.springframework.ratzpetclinic.services.OwnerService;
 
 import java.util.Set;
 
-public class OwnerServiceMap extends AbstractMapService<Owner, Integer> implements CrudService<Owner, Integer> {
+public class OwnerServiceMap extends AbstractMapService<Owner, Integer> implements OwnerService {
 
 
     @Override
@@ -33,5 +33,10 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Integer> implemen
     @Override
     public Owner findById(Integer id) {
         return super.findById(id);
+    }
+
+    @Override
+    public Owner findByLastName(String lastName) {
+        return null;
     }
 }

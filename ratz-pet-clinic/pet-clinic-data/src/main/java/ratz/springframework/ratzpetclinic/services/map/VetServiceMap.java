@@ -1,11 +1,11 @@
 package ratz.springframework.ratzpetclinic.services.map;
 
 import ratz.springframework.ratzpetclinic.model.Vet;
-import ratz.springframework.ratzpetclinic.services.CrudService;
+import ratz.springframework.ratzpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService <Vet, Integer> implements CrudService<Vet, Integer> {
+public class VetServiceMap extends AbstractMapService <Vet, Integer> implements VetService {
 
     @Override
     public Set<Vet> findAll() {

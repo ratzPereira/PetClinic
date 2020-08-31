@@ -1,11 +1,11 @@
 package ratz.springframework.ratzpetclinic.services.map;
 
 import ratz.springframework.ratzpetclinic.model.Pet;
-import ratz.springframework.ratzpetclinic.services.CrudService;
+import ratz.springframework.ratzpetclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Integer> implements CrudService<Pet, Integer> {
+public class PetServiceMap extends AbstractMapService<Pet, Integer> implements PetService {
 
 
     @Override
