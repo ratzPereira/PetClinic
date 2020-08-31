@@ -14,7 +14,7 @@
     </parent>
     <groupId>ratz.springframework</groupId>
     <artifactId>ratz-pet-clinic</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>ratz-pet-clinic</name>
     <description>Pet Clinic example using Spring</description>
 
@@ -44,7 +44,7 @@
     </build>
     <scm>
 
-        <developerConnection>scm:git:git@github.com:ratzPereira/PetClinic.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/ratzPereira/PetClinic.git</developerConnection>
         <tag>HEAD</tag>
   </scm>
 
