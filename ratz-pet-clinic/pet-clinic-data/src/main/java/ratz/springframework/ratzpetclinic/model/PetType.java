@@ -1,6 +1,6 @@
 package ratz.springframework.ratzpetclinic.model;
 
-public class PetType {
+public class PetType extends BaseEntity{
 
     private String name;
 
