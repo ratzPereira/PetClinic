@@ -1,10 +1,12 @@
 package ratz.springframework.ratzpetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import ratz.springframework.ratzpetclinic.model.Owner;
 import ratz.springframework.ratzpetclinic.services.OwnerService;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Integer> implements OwnerService {
 
 

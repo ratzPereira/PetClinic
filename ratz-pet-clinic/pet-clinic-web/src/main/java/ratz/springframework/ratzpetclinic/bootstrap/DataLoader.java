@@ -6,8 +6,6 @@ import ratz.springframework.ratzpetclinic.model.Owner;
 import ratz.springframework.ratzpetclinic.model.Vet;
 import ratz.springframework.ratzpetclinic.services.OwnerService;
 import ratz.springframework.ratzpetclinic.services.VetService;
-import ratz.springframework.ratzpetclinic.services.map.OwnerServiceMap;
-import ratz.springframework.ratzpetclinic.services.map.VetServiceMap;
 
 @Component
 public class DataLoader implements CommandLineRunner {
@@ -15,11 +13,10 @@ public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final VetService vetService;
 
+    public DataLoader(OwnerService ownerService, VetService vetService) {
 
-
-    public DataLoader(){
-        ownerService = new OwnerServiceMap();
-        vetService = new VetServiceMap();
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
 
     @Override
