@@ -2,12 +2,12 @@ package ratz.springframework.ratzpetclinic.services.map;
 
 import org.springframework.stereotype.Service;
 import ratz.springframework.ratzpetclinic.model.Speciality;
-import ratz.springframework.ratzpetclinic.services.SpecialitiesService;
+import ratz.springframework.ratzpetclinic.services.SpecialityService;
 
 import java.util.Set;
 
 @Service
-public class SpecialityMapService extends AbstractMapService<Speciality, Integer> implements SpecialitiesService {
+public class SpecialityMapService extends AbstractMapService<Speciality, Integer> implements SpecialityService {
 
 
     @Override

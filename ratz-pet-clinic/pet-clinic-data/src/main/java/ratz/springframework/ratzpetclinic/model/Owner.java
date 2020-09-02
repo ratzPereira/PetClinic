@@ -1,10 +1,11 @@
 package ratz.springframework.ratzpetclinic.model;
 
+import java.util.HashSet;
 import java.util.Set;
 
 public class Owner extends Person {
 
-    private Set<Pet> pets;
+    private Set<Pet> pets = new HashSet<>();
     private Integer phoneNumber;
     private String adress;
     private String city;
