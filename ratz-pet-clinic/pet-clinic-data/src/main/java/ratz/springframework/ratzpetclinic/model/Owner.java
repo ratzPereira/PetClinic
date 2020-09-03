@@ -1,13 +1,23 @@
 package ratz.springframework.ratzpetclinic.model;
 
+import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
+@Entity
+@Table(name = "Owners")
 public class Owner extends Person {
 
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "owner")
     private Set<Pet> pets = new HashSet<>();
+
+    @Column(name = "phone_number")
     private Integer phoneNumber;
-    private String adress;
+
+    @Column(name = "address")
+    private String address;
+
+    @Column(name = "city")
     private String city;
 
     public Set<Pet> getPets() {
@@ -26,12 +36,12 @@ public class Owner extends Person {
         this.phoneNumber = phoneNumber;
     }
 
-    public String getAdress() {
-        return adress;
+    public String getAddress() {
+        return address;
     }
 
-    public void setAdress(String adress) {
-        this.adress = adress;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public String getCity() {
