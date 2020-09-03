@@ -9,14 +9,14 @@ import java.time.LocalDate;
 public class Visit extends BaseEntity{
 
 
-    @Column(name = "date")
+    @Column(name = "visit_date")
     private LocalDate date;
 
     @Column(name = "description")
     private String description;
 
-    @ManyToOne
-    @JoinColumn(name = "pet_id")
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "pet")
     private Pet pet;
 
 
@@ -44,4 +44,7 @@ public class Visit extends BaseEntity{
     public void setPet(Pet pet) {
         this.pet = pet;
     }
+
+
+
 }

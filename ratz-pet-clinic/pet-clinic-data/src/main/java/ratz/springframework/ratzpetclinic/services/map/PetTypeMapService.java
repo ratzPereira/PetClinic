@@ -1,6 +1,7 @@
 package ratz.springframework.ratzpetclinic.services.map;
 
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import ratz.springframework.ratzpetclinic.model.PetType;
 import ratz.springframework.ratzpetclinic.services.PetTypeService;
@@ -8,6 +9,7 @@ import ratz.springframework.ratzpetclinic.services.PetTypeService;
 import java.util.Set;
 
 @Service
+@Profile({"default" , "map"})
 public class PetTypeMapService extends AbstractMapService<PetType, Integer> implements PetTypeService {
 
 
