@@ -30,7 +30,7 @@ public class VisitMapService extends AbstractMapService<Visit, Integer> implemen
 
     @Override
     public Visit save(Visit visit) {
-        if (visit.getPet() == null || visit.getPet().getOwner() == null ||
+        if (visit.getPet() == null || visit.getPet().getOwner() == null || visit.getPet().getId() == null ||
                 visit.getPet().getOwner().getId() == null) {
             throw new RuntimeException("Visit invalid");
         }
