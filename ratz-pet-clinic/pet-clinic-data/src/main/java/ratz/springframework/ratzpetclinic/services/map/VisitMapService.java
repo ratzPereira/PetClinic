@@ -1,11 +1,13 @@
 package ratz.springframework.ratzpetclinic.services.map;
 
 
+import org.springframework.stereotype.Service;
 import ratz.springframework.ratzpetclinic.model.Visit;
 import ratz.springframework.ratzpetclinic.services.VisitService;
 
 import java.util.Set;
 
+@Service
 public class VisitMapService extends AbstractMapService<Visit, Integer> implements VisitService {
 
 
@@ -27,7 +29,7 @@ public class VisitMapService extends AbstractMapService<Visit, Integer> implemen
     @Override
     public Visit save(Visit visit) {
         if (visit.getPet() == null || visit.getPet().getOwner() == null ||
-                visit.getPet().getId() == null || visit.getPet().getOwner().getId() == null) {
+                visit.getPet().getOwner().getId() == null) {
             throw new RuntimeException("Visit invalid");
         }
         return super.save(visit);

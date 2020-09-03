@@ -3,10 +3,7 @@ package ratz.springframework.ratzpetclinic.bootstrap;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 import ratz.springframework.ratzpetclinic.model.*;
-import ratz.springframework.ratzpetclinic.services.OwnerService;
-import ratz.springframework.ratzpetclinic.services.PetTypeService;
-import ratz.springframework.ratzpetclinic.services.SpecialityService;
-import ratz.springframework.ratzpetclinic.services.VetService;
+import ratz.springframework.ratzpetclinic.services.*;
 
 import java.time.LocalDate;
 
@@ -17,14 +14,17 @@ public class DataLoader implements CommandLineRunner {
     private final VetService vetService;
     private final PetTypeService petTypeService;
     private final SpecialityService specialitiesService;
+    private final VisitService visitService;
 
     public DataLoader(OwnerService ownerService, VetService vetService,
-                      PetTypeService petTypeService, SpecialityService specialitiesService) {
+                      PetTypeService petTypeService, SpecialityService specialitiesService,
+                      VisitService visitService) {
 
         this.ownerService = ownerService;
         this.vetService = vetService;
         this.petTypeService = petTypeService;
         this.specialitiesService = specialitiesService;
+        this.visitService = visitService;
     }
 
     @Override
@@ -100,6 +100,12 @@ public class DataLoader implements CommandLineRunner {
         burroAnao.setOwner(owner1);
         owner1.getPets().add(burroAnao);
 
+        Visit nasusVisit = new Visit();
+        nasusVisit.setPet(nasus);
+        nasusVisit.setDate(LocalDate.now());
+        nasusVisit.setDescription("Farto deste cão");
+
+        visitService.save(nasusVisit);
 
 
         System.out.println("Loaded Owners....");
