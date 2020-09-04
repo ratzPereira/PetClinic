@@ -88,7 +88,7 @@ public class DataLoader implements CommandLineRunner {
 
         Pet nasus = new Pet();
         nasus.setOwner(owner);
-        nasus.getBirthDate(LocalDate.now());
+        nasus.setBirthDate(LocalDate.now());
         nasus.setName("Nasus");
         nasus.setPetType(dog);
         owner.getPets().add(nasus);
