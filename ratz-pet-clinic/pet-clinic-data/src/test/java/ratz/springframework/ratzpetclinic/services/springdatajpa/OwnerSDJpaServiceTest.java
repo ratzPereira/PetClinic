@@ -111,12 +111,15 @@ class OwnerSDJpaServiceTest {
     void delete() {
 
         service.delete(returnOwner);
-        verify(ownerRepository).delete(any());
+
+        //the times default is 1, i just did to show
+        verify(ownerRepository, times(1)).delete(any());
     }
 
     @Test
     void deleteById() {
         service.deleteById(1);
-        verify(ownerRepository).deleteById(anyInt());
+        //the times default is 1, i just did to show
+        verify(ownerRepository,times(1)).deleteById(anyInt());
     }
 }
