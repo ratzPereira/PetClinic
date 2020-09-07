@@ -1,0 +1,5 @@
+ratz\springframework\ratzpetclinic\controllers\IndexController.class
+ratz\springframework\ratzpetclinic\RatzPetClinicApplication.class
+ratz\springframework\ratzpetclinic\controllers\OwnersController.class
+ratz\springframework\ratzpetclinic\controllers\VetController.class
+ratz\springframework\ratzpetclinic\bootstrap\DataLoader.class
