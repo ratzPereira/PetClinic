@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="176809ca-2882-43a6-bf38-e956445f1698" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/repositories/OwnerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/repositories/OwnerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/services/OwnerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/services/OwnerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/services/map/OwnerServiceMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/services/map/OwnerServiceMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/services/springdatajpa/OwnerSDJpaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/services/springdatajpa/OwnerSDJpaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/BaseEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/ratz/springframework/ratzpetclinic/controllers/OwnersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/ratz/springframework/ratzpetclinic/controllers/OwnersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/ownersList.html" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/ownersList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/test/java/ratz/springframework/ratzpetclinic/controllers/OwnersControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/test/java/ratz/springframework/ratzpetclinic/controllers/OwnersControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/createOrUpdateOwner.html" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/createOrUpdateOwner.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/pet-clinic-data/target/" />
@@ -23,10 +19,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/BaseEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/Owner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/main/java/ratz/springframework/ratzpetclinic/controllers/OwnersController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="214">
+              <caret line="19" column="95" selection-start-line="19" selection-start-column="95" selection-end-line="19" selection-end-column="95" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#463#464#0" expanded="true" />
@@ -39,10 +57,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/createOrUpdateOwner.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/findOwners.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="616">
+              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -64,9 +91,6 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/BaseEntity.java" />
-        <option value="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/createOrUpdateOwner.html" />
-        <option value="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/findOwners.html" />
         <option value="$PROJECT_DIR$/pet-clinic-web/pom.xml" />
         <option value="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/ownerDetails.html" />
         <option value="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/services/OwnerService.java" />
@@ -74,8 +98,11 @@
         <option value="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/services/map/OwnerServiceMap.java" />
         <option value="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/services/springdatajpa/OwnerSDJpaService.java" />
         <option value="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/ownersList.html" />
-        <option value="$PROJECT_DIR$/pet-clinic-web/src/main/java/ratz/springframework/ratzpetclinic/controllers/OwnersController.java" />
         <option value="$PROJECT_DIR$/pet-clinic-web/src/test/java/ratz/springframework/ratzpetclinic/controllers/OwnersControllerTest.java" />
+        <option value="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/findOwners.html" />
+        <option value="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/BaseEntity.java" />
+        <option value="$PROJECT_DIR$/pet-clinic-web/src/main/java/ratz/springframework/ratzpetclinic/controllers/OwnersController.java" />
+        <option value="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/createOrUpdateOwner.html" />
       </list>
     </option>
   </component>
@@ -329,7 +356,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599605320638" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599607478000" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -463,7 +490,7 @@
       <workItem from="1599486460855" duration="253000" />
       <workItem from="1599487516873" duration="963000" />
       <workItem from="1599488579485" duration="2232000" />
-      <workItem from="1599568862891" duration="11964000" />
+      <workItem from="1599568862891" duration="14229000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed git root, working now">
       <created>1599488998809</created>
@@ -486,7 +513,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599600127827</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implemented find owner. Closes #54">
+      <created>1599605430796</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599605430796</updated>
+    </task>
+    <task id="LOCAL-00005" summary="everything is working. Closes #61">
+      <created>1599606218726</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599606218726</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -522,13 +563,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15481000" />
+    <option name="totallyTimeSpent" value="17746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24281392" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27912253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -538,7 +578,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40589198" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40261865" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42389524" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -572,7 +612,9 @@
     <MESSAGE value="Fixed git root, working now" />
     <MESSAGE value=" added CircleCI. closes #59 closes #60" />
     <MESSAGE value=" Display owner record. closes #53" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Display owner record. closes #53" />
+    <MESSAGE value="Implemented find owner. Closes #54" />
+    <MESSAGE value="everything is working. Closes #61" />
+    <option name="LAST_COMMIT_MESSAGE" value="everything is working. Closes #61" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ratz-pet-clinic/src/main/java/ratz/springframework/ratzpetclinic/RatzPetClinicApplication.java" />
@@ -593,20 +635,6 @@
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/createOrUpdateOwner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.2.8.RELEASE/spring-test-5.2.8.RELEASE.jar!/org/springframework/test/web/servlet/MockMvc.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -729,10 +757,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/findOwners.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/Owner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/main/java/ratz/springframework/ratzpetclinic/controllers/OwnersController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="214">
+          <caret line="19" column="95" selection-start-line="19" selection-start-column="95" selection-end-line="19" selection-end-column="95" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#463#464#0" expanded="true" />
@@ -743,10 +796,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/findOwners.html">
+    <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/createOrUpdateOwner.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="237">
+          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
         </state>
       </provider>
     </entry>
