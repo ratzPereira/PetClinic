@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="176809ca-2882-43a6-bf38-e956445f1698" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/BaseEntity.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/pet-clinic-data/target/" />
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/BaseEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            <state relative-caret-position="264">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -53,8 +52,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
+    <option name="x" value="1907" />
+    <option name="y" value="-14" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -64,7 +63,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -77,6 +75,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -86,7 +85,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599488960217" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599536639898" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -131,18 +130,26 @@
       <workItem from="1598826385985" duration="13000" />
       <workItem from="1599486460855" duration="253000" />
       <workItem from="1599487516873" duration="963000" />
-      <workItem from="1599488579485" duration="379000" />
+      <workItem from="1599488579485" duration="2232000" />
+      <workItem from="1599568862891" duration="1038000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixed git root, working now">
+      <created>1599488998809</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599488998810</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1664000" />
+    <option name="totallyTimeSpent" value="4555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14901665" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15128593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -158,7 +165,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32733223" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32733223" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -183,6 +190,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <MESSAGE value="Fixed git root, working now" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed git root, working now" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ratz-pet-clinic/src/main/java/ratz/springframework/ratzpetclinic/RatzPetClinicApplication.java" />
@@ -206,8 +215,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/BaseEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="264">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
