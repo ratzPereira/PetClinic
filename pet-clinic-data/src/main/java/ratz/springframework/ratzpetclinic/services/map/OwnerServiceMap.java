@@ -8,6 +8,7 @@ import ratz.springframework.ratzpetclinic.services.OwnerService;
 import ratz.springframework.ratzpetclinic.services.PetService;
 import ratz.springframework.ratzpetclinic.services.PetTypeService;
 
+import java.util.List;
 import java.util.Set;
 
 @Service
@@ -77,5 +78,10 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Integer> implemen
                 .filter(owner -> owner.getLastName().equalsIgnoreCase(lastName))
                 .findFirst()
                 .orElse(null);
+    }
+
+    @Override
+    public List<Owner> findAllByLastNameLike(String lastName) {
+        return null;
     }
 }

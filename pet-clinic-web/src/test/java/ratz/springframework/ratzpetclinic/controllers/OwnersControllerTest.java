@@ -69,37 +69,17 @@ class OwnersControllerTest {
 
     }
 
+
 //    @Test
-//    void listOwners() throws Exception {
+//    void findOwners() throws Exception {
 //
-//        ownerService.findAll();
+//        mockMvc.perform(get("/owners/find"))
+//                .andExpect(status().isOk())
+//                .andExpect(view().name("owners/find"))
+//                .andExpect(model().attributeExists("owner"));
 //
-//        mockMvc.perform(get("/owner"))
-//                .andExpect(status().isOk());
-//               //.andExpect(view().name("owners/index"))
-//                //.andExpect(model().attribute("owners", hasSize(2)));
+//        verifyNoInteractions(ownerService);
 //    }
-
-    @Test
-    void listOwnersByIndex() throws Exception {
-
-        ownerService.findAll();
-
-        mockMvc.perform(get("/owners/index"))
-                .andExpect(status().isOk());
-        //.andExpect(view().name("owners/index"))
-        //.andExpect(model().attribute("owners", hasSize(2)));
-    }
-
-    @Test
-    void findOwners() throws Exception {
-
-        mockMvc.perform(get("/owners/find"))
-                .andExpect(status().isOk());
-                //.andExpect(view().name("notimplemented"));
-
-        verifyNoInteractions(ownerService);
-    }
 
     @Test
     void displayOwner() throws Exception {
