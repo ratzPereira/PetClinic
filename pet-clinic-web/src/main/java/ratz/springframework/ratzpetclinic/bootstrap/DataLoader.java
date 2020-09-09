@@ -41,15 +41,15 @@ public class DataLoader implements CommandLineRunner {
     private void loadData() {
         PetType dog = new PetType();
         dog.setName("Dog");
-        PetType savedDogPetType = petTypeService.save(dog);
+        petTypeService.save(dog);
 
         PetType cat = new PetType();
-        dog.setName("Cat");
-        PetType savedCatPetType = petTypeService.save(cat);
+        cat.setName("Cat");
+        petTypeService.save(cat);
 
         PetType donkey = new PetType();
-        dog.setName("Donkey");
-        PetType savedDonkeyPetType = petTypeService.save(donkey);
+        donkey.setName("Donkey");
+        petTypeService.save(donkey);
 
 
         Speciality radiology = new Speciality();
@@ -83,9 +83,6 @@ public class DataLoader implements CommandLineRunner {
         owner1.setCity("Angra");
         owner1.setPhoneNumber(912234052);
 
-        ownerService.save(owner1);
-
-
         Pet nasus = new Pet();
         nasus.setOwner(owner);
         nasus.setBirthDate(LocalDate.now());
@@ -94,11 +91,13 @@ public class DataLoader implements CommandLineRunner {
         owner.getPets().add(nasus);
 
         Pet burroAnao = new Pet();
-        burroAnao.setName("Ainda nao tem");
+        burroAnao.setName("Burrito Anãozito");
         burroAnao.setPetType(donkey);
         burroAnao.setBirthDate(LocalDate.now());
         burroAnao.setOwner(owner1);
         owner1.getPets().add(burroAnao);
+
+        ownerService.save(owner1);
 
         Visit nasusVisit = new Visit();
         nasusVisit.setPet(nasus);
@@ -126,5 +125,7 @@ public class DataLoader implements CommandLineRunner {
         vetService.save(vet1);
 
         System.out.println("Loaded Vets....");
+
+        System.out.println(petTypeService.findAll());
     }
 }

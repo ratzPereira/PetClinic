@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="176809ca-2882-43a6-bf38-e956445f1698" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/ratz/springframework/ratzpetclinic/controllers/PetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/ratz/springframework/ratzpetclinic/formatters/PetTypeFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/pets/createOrUpdatePetForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/test/java/ratz/springframework/ratzpetclinic/controllers/PetControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/PetType.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/PetType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/services/springdatajpa/PetTypeSDJpaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/services/springdatajpa/PetTypeSDJpaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/ratz/springframework/ratzpetclinic/bootstrap/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/ratz/springframework/ratzpetclinic/bootstrap/DataLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/ratz/springframework/ratzpetclinic/controllers/PetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/ratz/springframework/ratzpetclinic/controllers/PetController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/pet-clinic-data/target/" />
@@ -17,18 +25,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/main/java/ratz/springframework/ratzpetclinic/controllers/PetController.java">
+        <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/test/java/ratz/springframework/ratzpetclinic/controllers/PetControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
-              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+            <state relative-caret-position="962">
+              <caret line="59" selection-start-line="59" selection-end-line="82" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,6 +41,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="HTML File" />
         <option value="Class" />
       </list>
@@ -64,7 +67,15 @@
         <option value="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/BaseEntity.java" />
         <option value="$PROJECT_DIR$/pet-clinic-web/src/main/java/ratz/springframework/ratzpetclinic/controllers/OwnersController.java" />
         <option value="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/createOrUpdateOwner.html" />
+        <option value="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/PetType.java" />
+        <option value="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/Pet.java" />
+        <option value="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/Owner.java" />
+        <option value="$PROJECT_DIR$/pet-clinic-web/src/main/java/ratz/springframework/ratzpetclinic/formatters/PetTypeFormatter.java" />
+        <option value="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/pets/createOrUpdatePetForm.html" />
         <option value="$PROJECT_DIR$/pet-clinic-web/src/main/java/ratz/springframework/ratzpetclinic/controllers/PetController.java" />
+        <option value="$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/services/springdatajpa/PetTypeSDJpaService.java" />
+        <option value="$PROJECT_DIR$/pet-clinic-web/src/main/java/ratz/springframework/ratzpetclinic/bootstrap/DataLoader.java" />
+        <option value="$PROJECT_DIR$/pet-clinic-web/src/test/java/ratz/springframework/ratzpetclinic/controllers/PetControllerTest.java" />
       </list>
     </option>
   </component>
@@ -92,8 +103,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1907" />
-    <option name="y" value="-14" />
+    <option name="x" value="1693" />
+    <option name="y" value="7" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -237,16 +248,6 @@
               <item name="pet-clinic-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ratzpetclinic" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PetClinic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PetClinic" type="462c0819:PsiDirectoryNode" />
-              <item name="pet-clinic-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -266,7 +267,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="owners" type="462c0819:PsiDirectoryNode" />
+              <item name="pets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PetClinic" type="b2602c69:ProjectViewProjectNode" />
@@ -318,7 +319,9 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599610141657" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599617900959" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -327,6 +330,14 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/README.md" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ratz.springframework.ratzpetclinic.controllers" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -340,38 +351,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RatzPetClinicApplication">
-    <configuration name="OwnersControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pet-clinic-web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ratz.springframework.ratzpetclinic.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ratz.springframework.ratzpetclinic.controllers" />
-      <option name="MAIN_CLASS_NAME" value="ratz.springframework.ratzpetclinic.controllers.OwnersControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OwnersControllerTest.displayOwner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pet-clinic-web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ratz.springframework.ratzpetclinic.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ratz.springframework.ratzpetclinic.controllers" />
-      <option name="MAIN_CLASS_NAME" value="ratz.springframework.ratzpetclinic.controllers.OwnersControllerTest" />
-      <option name="METHOD_NAME" value="displayOwner" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PetControllerTest">
     <configuration name="OwnersControllerTest.findOwners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pet-clinic-web" />
       <extension name="coverage">
@@ -388,7 +368,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OwnersControllerTest.listOwners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PetControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pet-clinic-web" />
       <extension name="coverage">
         <pattern>
@@ -397,14 +377,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ratz.springframework.ratzpetclinic.controllers" />
-      <option name="MAIN_CLASS_NAME" value="ratz.springframework.ratzpetclinic.controllers.OwnersControllerTest" />
-      <option name="METHOD_NAME" value="listOwners" />
+      <option name="MAIN_CLASS_NAME" value="ratz.springframework.ratzpetclinic.controllers.PetControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetControllerTest.initUpdateForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pet-clinic-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ratz.springframework.ratzpetclinic.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ratz.springframework.ratzpetclinic.controllers" />
+      <option name="MAIN_CLASS_NAME" value="ratz.springframework.ratzpetclinic.controllers.PetControllerTest" />
+      <option name="METHOD_NAME" value="initUpdateForm" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OwnersControllerTest.listOwnersByIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PetControllerTest.processUpdateForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pet-clinic-web" />
       <extension name="coverage">
         <pattern>
@@ -413,9 +408,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ratz.springframework.ratzpetclinic.controllers" />
-      <option name="MAIN_CLASS_NAME" value="ratz.springframework.ratzpetclinic.controllers.OwnersControllerTest" />
-      <option name="METHOD_NAME" value="listOwnersByIndex" />
+      <option name="MAIN_CLASS_NAME" value="ratz.springframework.ratzpetclinic.controllers.PetControllerTest" />
+      <option name="METHOD_NAME" value="processUpdateForm" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ratz.springframework.ratzpetclinic in pet-clinic-web" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pet-clinic-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ratz.springframework.ratzpetclinic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ratz.springframework.ratzpetclinic" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -429,11 +438,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PetControllerTest" />
+        <item itemvalue="JUnit.PetControllerTest.processUpdateForm" />
+        <item itemvalue="JUnit.PetControllerTest.initUpdateForm" />
+        <item itemvalue="JUnit.ratz.springframework.ratzpetclinic in pet-clinic-web" />
         <item itemvalue="JUnit.OwnersControllerTest.findOwners" />
-        <item itemvalue="JUnit.OwnersControllerTest.displayOwner" />
-        <item itemvalue="JUnit.OwnersControllerTest" />
-        <item itemvalue="JUnit.OwnersControllerTest.listOwners" />
-        <item itemvalue="JUnit.OwnersControllerTest.listOwnersByIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -452,7 +461,7 @@
       <workItem from="1599486460855" duration="253000" />
       <workItem from="1599487516873" duration="963000" />
       <workItem from="1599488579485" duration="2232000" />
-      <workItem from="1599568862891" duration="15360000" />
+      <workItem from="1599568862891" duration="22739000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed git root, working now">
       <created>1599488998809</created>
@@ -496,47 +505,89 @@
       <option name="project" value="LOCAL" />
       <updated>1599607521895</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adding model attributes for pets.Closes #56">
+      <created>1599610398627</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599610398627</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OwnersControllerTest_findOwners - 2020.09.08 at 22h 07m 05s.xml">
-      <configuration name="OwnersControllerTest.findOwners" configurationId="JUnit" />
+    <history-entry file="ratz_springframework_ratzpetclinic_in_pet-clinic-web - 2020.09.09 at 01h 06m 05s.xml">
+      <configuration name="ratz.springframework.ratzpetclinic in pet-clinic-web" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OwnersControllerTest_findOwners - 2020.09.08 at 22h 10m 50s.xml">
-      <configuration name="OwnersControllerTest.findOwners" configurationId="JUnit" />
+    <history-entry file="PetControllerTest_initUpdateForm - 2020.09.09 at 01h 43m 33s.xml">
+      <configuration name="PetControllerTest.initUpdateForm" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OwnersControllerTest_findOwners - 2020.09.08 at 22h 10m 58s.xml">
-      <configuration name="OwnersControllerTest.findOwners" configurationId="JUnit" />
+    <history-entry file="PetControllerTest_processUpdateForm - 2020.09.09 at 01h 43m 56s.xml">
+      <configuration name="PetControllerTest.processUpdateForm" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OwnersControllerTest_findOwners - 2020.09.08 at 22h 13m 16s.xml">
-      <configuration name="OwnersControllerTest.findOwners" configurationId="JUnit" />
+    <history-entry file="PetControllerTest_processUpdateForm - 2020.09.09 at 01h 44m 50s.xml">
+      <configuration name="PetControllerTest.processUpdateForm" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OwnersControllerTest_findOwners - 2020.09.08 at 22h 15m 01s.xml">
-      <configuration name="OwnersControllerTest.findOwners" configurationId="JUnit" />
+    <history-entry file="PetControllerTest_processUpdateForm - 2020.09.09 at 01h 48m 23s.xml">
+      <configuration name="PetControllerTest.processUpdateForm" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OwnersControllerTest_findOwners - 2020.09.08 at 22h 16m 12s.xml">
-      <configuration name="OwnersControllerTest.findOwners" configurationId="JUnit" />
+    <history-entry file="PetControllerTest_processUpdateForm - 2020.09.09 at 01h 48m 30s.xml">
+      <configuration name="PetControllerTest.processUpdateForm" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OwnersControllerTest_findOwners - 2020.09.08 at 22h 17m 02s.xml">
-      <configuration name="OwnersControllerTest.findOwners" configurationId="JUnit" />
+    <history-entry file="PetControllerTest_processUpdateForm - 2020.09.09 at 01h 51m 02s.xml">
+      <configuration name="PetControllerTest.processUpdateForm" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OwnersControllerTest_findOwners - 2020.09.08 at 22h 20m 45s.xml">
-      <configuration name="OwnersControllerTest.findOwners" configurationId="JUnit" />
+    <history-entry file="PetControllerTest_processUpdateForm - 2020.09.09 at 01h 51m 21s.xml">
+      <configuration name="PetControllerTest.processUpdateForm" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OwnersControllerTest_findOwners - 2020.09.08 at 22h 21m 04s.xml">
-      <configuration name="OwnersControllerTest.findOwners" configurationId="JUnit" />
+    <history-entry file="PetControllerTest_processUpdateForm - 2020.09.09 at 01h 51m 28s.xml">
+      <configuration name="PetControllerTest.processUpdateForm" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OwnersControllerTest_findOwners - 2020.09.08 at 22h 29m 17s.xml">
-      <configuration name="OwnersControllerTest.findOwners" configurationId="JUnit" />
+    <history-entry file="PetControllerTest_processUpdateForm - 2020.09.09 at 01h 53m 04s.xml">
+      <configuration name="PetControllerTest.processUpdateForm" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18877000" />
+    <option name="totallyTimeSpent" value="26256000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2602118" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44189852" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42131147" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32733223" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3295082" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.1603631" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22692889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -569,7 +620,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -586,8 +637,21 @@
     <MESSAGE value="Implemented find owner. Closes #54" />
     <MESSAGE value="everything is working. Closes #61" />
     <MESSAGE value="Add ability to add or update owner.Closes #55" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ability to add or update owner.Closes #55" />
+    <MESSAGE value="adding model attributes for pets.Closes #56" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding model attributes for pets.Closes #56" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pet-clinic-web/src/test/java/ratz/springframework/ratzpetclinic/controllers/PetControllerTest.java</url>
+          <line>102</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ratz-pet-clinic/src/main/java/ratz/springframework/ratzpetclinic/RatzPetClinicApplication.java" />
@@ -631,24 +695,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/main/java/ratz/springframework/ratzpetclinic/bootstrap/DataLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1210">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/ownerDetails.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1232">
           <caret line="56" column="57" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/PetType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -713,16 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/test/java/ratz/springframework/ratzpetclinic/controllers/OwnersControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -734,24 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/Owner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -776,10 +798,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/PetType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding>
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/main/java/ratz/springframework/ratzpetclinic/formatters/PetTypeFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_261/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="224" column="12" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.8.RELEASE/spring-web-5.2.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.8.RELEASE/spring-webmvc-5.2.8.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="470" column="19" selection-start-line="470" selection-start-column="19" selection-end-line="470" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.8.RELEASE/spring-webmvc-5.2.8.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="504" column="27" selection-start-line="504" selection-start-column="27" selection-end-line="504" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/services/CrudService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/main/java/ratz/springframework/ratzpetclinic/controllers/PetController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        <state relative-caret-position="263">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#231#232#0" expanded="true" />
@@ -788,6 +873,80 @@
             <element signature="e#429#430#0" expanded="true" />
             <element signature="e#515#516#0" expanded="true" />
             <element signature="e#567#568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/services/PetTypeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/Owner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+          <folding>
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1261#1262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/test/java/ratz/springframework/ratzpetclinic/controllers/OwnersControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/model/Pet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/main/java/ratz/springframework/ratzpetclinic/bootstrap/DataLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="89" column="30" lean-forward="true" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/pets/createOrUpdatePetForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="23" column="87" selection-start-line="23" selection-start-column="87" selection-end-line="23" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/ratz/springframework/ratzpetclinic/services/springdatajpa/PetTypeSDJpaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="35" />
+          <folding>
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/test/java/ratz/springframework/ratzpetclinic/controllers/PetControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="962">
+          <caret line="59" selection-start-line="59" selection-end-line="82" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

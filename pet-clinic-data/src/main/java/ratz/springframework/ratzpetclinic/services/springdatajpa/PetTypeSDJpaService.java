@@ -9,6 +9,7 @@ import ratz.springframework.ratzpetclinic.services.PetTypeService;
 import java.util.HashSet;
 import java.util.Set;
 
+
 @Service
 @Profile(("springdatajpa"))
 public class PetTypeSDJpaService implements PetTypeService {
@@ -26,7 +27,10 @@ public class PetTypeSDJpaService implements PetTypeService {
 
         petTypeRepository.findAll().forEach(petTypes::add);
 
+        System.out.println(petTypes);
         return petTypes;
+
+
     }
 
     @Override
