@@ -21,7 +21,6 @@ public class Owner extends Person {
     public Owner(Integer id, String firstName, String lastName, Set<Pet> pets,
                  Integer phoneNumber, String address, String city) {
         super(id, firstName, lastName);  //vem de person
-        this.pets = pets;
         this.phoneNumber = phoneNumber;
         this.address = address;
         this.city = city;
