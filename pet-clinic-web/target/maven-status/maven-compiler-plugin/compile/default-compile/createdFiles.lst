@@ -1,5 +1,9 @@
 ratz\springframework\ratzpetclinic\controllers\IndexController.class
 ratz\springframework\ratzpetclinic\RatzPetClinicApplication.class
+ratz\springframework\ratzpetclinic\formatters\PetTypeFormatter.class
 ratz\springframework\ratzpetclinic\controllers\OwnersController.class
+ratz\springframework\ratzpetclinic\controllers\VisitController$1.class
+ratz\springframework\ratzpetclinic\controllers\VisitController.class
 ratz\springframework\ratzpetclinic\controllers\VetController.class
+ratz\springframework\ratzpetclinic\controllers\PetController.class
 ratz\springframework\ratzpetclinic\bootstrap\DataLoader.class
